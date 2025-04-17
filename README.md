@@ -1,8 +1,25 @@
-# React + Vite
+# 📚 Kitap Kurdu
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bu proje, kullanıcı dostu bir arayüz ile romanları arama, filtreleme, sıralama ve detaylı bilgilerini görüntüleme imkanı sunar.
 
-Currently, two official plugins are available:
+## 🛠️ Kullanılan Teknolojiler
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 💥 **React.js**: Kullanıcı arayüzünü oluşturmak ve bileşen tabanlı mimariyi uygulamak için kullanıldı.
+- 💥 **React Router v6**: Sayfalar arası geçişi ve iç içe rotaları (nested routes) sorunsuz hale getirmek için kullanıldı.
+- 💥 **useState & useEffect**: React Hook'ları ile durum yönetimi ve dinamik API verisi çekimi sağlandı.
+- 💥 **useSearchParams & useNavigate**: Arama ve filtreleme özellikleri için URL parametreleri yönetildi.
+- 💥 **Axios**: API çağrıları yapılarak verilerin alınması ve görüntülenmesi sağlandı.
+- ⚡ **Vite**: Daha hızlı geliştirme süreci için modern bir build aracı olarak kullanıldı.
+- 💥 **CSS**: Şık ve duyarlı (responsive) bir tasarım oluşturmak için arayüz stillendi.
+
+## 🚀 Proje Özellikleri
+
+- 🔍 **Arama Özelliği:** Kayıtlı kitaplar arasında hızlı ve kolay arama yapabilme.
+- ⚡ **Vite + React:** Hızlı geliştirme için Vite altyapısı kullanıldı.
+- 🌐 **API Entegrasyonu:** JSON Server ile simüle edilmiş bir backend üzerinden Axios ile veri alışverişi.
+- 💅 **Modern Arayüz:** Kart yapısı ve modallar ile kullanıcı dostu, dinamik bir tasarım.
+
+## Ekran Kaydı
+Projenin nasıl göründüğüne dair bir fikir edinmek için aşağıdaki gif'e göz atabilirsiniz
+![book](https://github.com/user-attachments/assets/90aab287-30c5-42b9-b40a-961e63469183)
+
